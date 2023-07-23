@@ -1,0 +1,8 @@
+# Yiding He：这个文件暂时没用到，所以没改
+---
+language: java
+sudo: false
+jdk:
+  - oraclejdk8
+notifications:
+  email: false

@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.github.yiding-he</groupId>
+        <artifactId>zheng</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>zheng-cms</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>zheng-cms-dao</module>
+        <module>zheng-cms-rpc-api</module>
+        <module>zheng-cms-rpc-service</module>
+        <module>zheng-cms-web</module>
+        <module>zheng-cms-job</module>
+        <module>zheng-cms-search</module>
+        <module>zheng-cms-admin</module>
+        <module>zheng-cms-common</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.github.yiding-he</groupId>
+                <artifactId>zheng-cms-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.yiding-he</groupId>
+                <artifactId>zheng-cms-dao</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
