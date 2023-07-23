@@ -7,18 +7,13 @@
         <artifactId>zheng-wechat-mp</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-
     <artifactId>zheng-wechat-mp-admin</artifactId>
-    <packaging>war</packaging>
-
-    <name>zheng-wechat-mp-admin Maven Webapp</name>
-    <url>http://www.zhangshuzheng.cn</url>
 
     <dependencies>
         <dependency>
             <groupId>com.github.yiding-he</groupId>
             <artifactId>zheng-wechat-mp-service</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>${project.version}</version>
             <type>jar</type>
         </dependency>
     </dependencies>

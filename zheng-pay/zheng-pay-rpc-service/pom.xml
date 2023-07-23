@@ -7,18 +7,13 @@
         <artifactId>zheng-pay</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-
     <artifactId>zheng-pay-rpc-service</artifactId>
-    <packaging>jar</packaging>
-
-    <name>zheng-pay-rpc-service</name>
-    <url>http://www.zhangshuzheng.cn</url>
 
     <dependencies>
         <dependency>
             <groupId>com.github.yiding-he</groupId>
             <artifactId>zheng-pay-rpc-api</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>

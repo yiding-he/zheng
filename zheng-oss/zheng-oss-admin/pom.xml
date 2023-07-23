@@ -14,18 +14,18 @@
         <dependency>
             <groupId>com.github.yiding-he</groupId>
             <artifactId>zheng-oss-sdk</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>com.github.yiding-he</groupId>
             <artifactId>zheng-admin</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
         <!-- zheng-upms-client -->
         <dependency>
             <groupId>com.github.yiding-he</groupId>
             <artifactId>zheng-upms-client</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 </project>

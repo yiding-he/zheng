@@ -7,27 +7,18 @@
         <artifactId>zheng-upms</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
-
     <artifactId>zheng-upms-client</artifactId>
-    <packaging>jar</packaging>
-
-    <name>zheng-upms-client</name>
-    <url>http://www.zhangshuzheng.cn</url>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 
     <dependencies>
         <dependency>
             <groupId>com.github.yiding-he</groupId>
             <artifactId>zheng-common</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>com.github.yiding-he</groupId>
             <artifactId>zheng-upms-rpc-api</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.shiro</groupId>

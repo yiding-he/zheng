@@ -8,5 +8,5 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <artifactId>zheng-admin</artifactId>
-    <packaging>jar</packaging>
+
 </project>
