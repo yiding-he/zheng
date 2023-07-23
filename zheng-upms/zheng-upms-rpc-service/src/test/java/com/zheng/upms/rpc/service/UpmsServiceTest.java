@@ -4,15 +4,12 @@ import com.zheng.upms.dao.mapper.UpmsUserMapper;
 import com.zheng.upms.dao.model.UpmsPermission;
 import com.zheng.upms.dao.model.UpmsPermissionExample;
 import com.zheng.upms.dao.model.UpmsUser;
+import com.zheng.upms.rpc.ZhengUpmsRpcServiceApplicationTest;
 import com.zheng.upms.rpc.api.UpmsPermissionService;
 import com.zheng.upms.rpc.api.UpmsSystemService;
 import com.zheng.upms.rpc.api.UpmsUserService;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.transaction.TransactionConfiguration;
 
 import java.util.List;
 
@@ -20,14 +17,7 @@ import java.util.List;
  * 单元测试
  * Created by shuzheng on 2017/2/19.
  */
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration({
-        "classpath:applicationContext.xml",
-        "classpath:META-INF/spring/applicationContext-jdbc.xml",
-        "classpath:META-INF/spring/applicationContext-listener.xml"
-})
-@TransactionConfiguration(transactionManager = "transactionManager", defaultRollback = true)
-public class UpmsServiceTest {
+public class UpmsServiceTest extends ZhengUpmsRpcServiceApplicationTest {
 
     @Autowired
     private UpmsSystemService upmsSystemService;
